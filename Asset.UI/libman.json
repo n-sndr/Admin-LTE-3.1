@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "bootstrap@5.1.1",
+      "destination": "wwwroot/plugins/bootstrap/"
+    },
+    {
+      "library": "jquery@3.6.0",
+      "destination": "wwwroot/plugins/jquery/"
+    },
+    {
+      "library": "jquery-validate@1.19.3",
+      "destination": "wwwroot/plugins/jquery-validate/"
+    },
+    {
+      "library": "jquery-validation-unobtrusive@3.2.12",
+      "destination": "wwwroot/plugins/jquery-validation-unobtrusive/"
+    },
+    {
+      "library": "admin-lte@3.1.0",
+      "destination": "wwwroot/plugins/admin-lte/"
+    },
+    {
+      "provider": "unpkg",
+      "library": "@fortawesome/fontawesome-free@5.15.4",
+      "destination": "wwwroot/plugins/fortawesome/fontawesome-free/"
+    }
+  ]
+}
